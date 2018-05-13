@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54E32671943146D488014D1C /* Pods_BookingAssistantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC59929D354C4A9E8691D4C /* Pods_BookingAssistantUITests.framework */; };
+		9BE7B94F20A742D200FB1A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE7B94E20A742D200FB1A66 /* Assets.xcassets */; };
+		9BE7B95D20A742D200FB1A66 /* BookingAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B95C20A742D200FB1A66 /* BookingAssistantTests.swift */; };
+		9BE7B96820A742D200FB1A66 /* BookingAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B96720A742D200FB1A66 /* BookingAssistantUITests.swift */; };
+		9BE7B98B20A7EDAC00FB1A66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B98A20A7EDAC00FB1A66 /* AppDelegate.swift */; };
+		9BE7B9A320A7EE9100FB1A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE7B98E20A7EE9000FB1A66 /* LaunchScreen.storyboard */; };
+		9BE7B9A420A7EE9100FB1A66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE7B99020A7EE9000FB1A66 /* Main.storyboard */; };
+		9BE7B9A520A7EE9100FB1A66 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B99320A7EE9000FB1A66 /* Message.swift */; };
+		9BE7B9A620A7EE9100FB1A66 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B99520A7EE9000FB1A66 /* ConversationViewController.swift */; };
+		9BE7B9A720A7EE9100FB1A66 /* TextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B99920A7EE9000FB1A66 /* TextMessageCell.swift */; };
+		9BE7B9A820A7EE9100FB1A66 /* TextMessageCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B99A20A7EE9000FB1A66 /* TextMessageCellLayout.swift */; };
+		9BE7B9A920A7EE9100FB1A66 /* BaseMessageCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B99C20A7EE9000FB1A66 /* BaseMessageCellLayout.swift */; };
+		9BE7B9AA20A7EE9100FB1A66 /* BaseMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B99D20A7EE9000FB1A66 /* BaseMessageCell.swift */; };
+		9BE7B9AB20A7EE9100FB1A66 /* ChatInputTextPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B99F20A7EE9000FB1A66 /* ChatInputTextPanel.swift */; };
+		9BE7B9AC20A7EE9100FB1A66 /* NSAttributedString+SizeThatFits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B9A120A7EE9100FB1A66 /* NSAttributedString+SizeThatFits.swift */; };
+		9BE7B9AD20A7EE9100FB1A66 /* UIFont+MediumSystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B9A220A7EE9100FB1A66 /* UIFont+MediumSystemFont.swift */; };
+		9BE7B9B020A81B2A00FB1A66 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B9AF20A81B2A00FB1A66 /* NetworkService.swift */; };
+		9BE7B9B320A82CE100FB1A66 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7B9B220A82CE100FB1A66 /* MessageManager.swift */; };
+		9D2A4705DD3D0A0FE7544ABC /* Pods_BookingAssistantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B776465E3B8FCC8A32D02A58 /* Pods_BookingAssistantTests.framework */; };
+		D7318C2EF8174D1ED52D0DB6 /* Pods_BookingAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F63CF413DB1D84F9269FB9 /* Pods_BookingAssistant.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BE7B95920A742D200FB1A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE7B93C20A742D200FB1A66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE7B94320A742D200FB1A66;
+			remoteInfo = BookingAssistant;
+		};
+		9BE7B96420A742D200FB1A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE7B93C20A742D200FB1A66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE7B94320A742D200FB1A66;
+			remoteInfo = BookingAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34438EBBB640C844660256C1 /* Pods-BookingAssistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingAssistantUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookingAssistantUITests/Pods-BookingAssistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4777A338209CC87AB54B9622 /* Pods-BookingAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingAssistant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookingAssistant/Pods-BookingAssistant.debug.xcconfig"; sourceTree = "<group>"; };
+		62F63CF413DB1D84F9269FB9 /* Pods_BookingAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookingAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC59929D354C4A9E8691D4C /* Pods_BookingAssistantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookingAssistantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE7B94420A742D200FB1A66 /* BookingAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE7B94E20A742D200FB1A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE7B95320A742D200FB1A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE7B95820A742D200FB1A66 /* BookingAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE7B95C20A742D200FB1A66 /* BookingAssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingAssistantTests.swift; sourceTree = "<group>"; };
+		9BE7B95E20A742D200FB1A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE7B96320A742D200FB1A66 /* BookingAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE7B96720A742D200FB1A66 /* BookingAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingAssistantUITests.swift; sourceTree = "<group>"; };
+		9BE7B96920A742D200FB1A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE7B98A20A7EDAC00FB1A66 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BE7B98F20A7EE9000FB1A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BE7B99120A7EE9000FB1A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE7B99320A7EE9000FB1A66 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9BE7B99520A7EE9000FB1A66 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		9BE7B99920A7EE9000FB1A66 /* TextMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextMessageCell.swift; sourceTree = "<group>"; };
+		9BE7B99A20A7EE9000FB1A66 /* TextMessageCellLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextMessageCellLayout.swift; sourceTree = "<group>"; };
+		9BE7B99C20A7EE9000FB1A66 /* BaseMessageCellLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMessageCellLayout.swift; sourceTree = "<group>"; };
+		9BE7B99D20A7EE9000FB1A66 /* BaseMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMessageCell.swift; sourceTree = "<group>"; };
+		9BE7B99F20A7EE9000FB1A66 /* ChatInputTextPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputTextPanel.swift; sourceTree = "<group>"; };
+		9BE7B9A120A7EE9100FB1A66 /* NSAttributedString+SizeThatFits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+SizeThatFits.swift"; sourceTree = "<group>"; };
+		9BE7B9A220A7EE9100FB1A66 /* UIFont+MediumSystemFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+MediumSystemFont.swift"; sourceTree = "<group>"; };
+		9BE7B9AF20A81B2A00FB1A66 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9BE7B9B220A82CE100FB1A66 /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
+		A37EA692139F09D76065AD3E /* Pods-BookingAssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingAssistantTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookingAssistantTests/Pods-BookingAssistantTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6B278E9DB270DC72F794BB9 /* Pods-BookingAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingAssistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookingAssistant/Pods-BookingAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		B776465E3B8FCC8A32D02A58 /* Pods_BookingAssistantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookingAssistantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEA9CE7C1278C5FE3289525 /* Pods-BookingAssistantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingAssistantUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookingAssistantUITests/Pods-BookingAssistantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB25BE4AB873292B9A950B6B /* Pods-BookingAssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingAssistantTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookingAssistantTests/Pods-BookingAssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE7B94120A742D200FB1A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7318C2EF8174D1ED52D0DB6 /* Pods_BookingAssistant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE7B95520A742D200FB1A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2A4705DD3D0A0FE7544ABC /* Pods_BookingAssistantTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE7B96020A742D200FB1A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E32671943146D488014D1C /* Pods_BookingAssistantUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC96AD972E0128494B86D3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62F63CF413DB1D84F9269FB9 /* Pods_BookingAssistant.framework */,
+				B776465E3B8FCC8A32D02A58 /* Pods_BookingAssistantTests.framework */,
+				7EC59929D354C4A9E8691D4C /* Pods_BookingAssistantUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BE7B93B20A742D200FB1A66 = {
+			isa = PBXGroup;
+			children = (
+				9BE7B94620A742D200FB1A66 /* BookingAssistant */,
+				9BE7B95B20A742D200FB1A66 /* BookingAssistantTests */,
+				9BE7B96620A742D200FB1A66 /* BookingAssistantUITests */,
+				9BE7B94520A742D200FB1A66 /* Products */,
+				C29E381594A37F2866DDA909 /* Pods */,
+				1CC96AD972E0128494B86D3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE7B94520A742D200FB1A66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B94420A742D200FB1A66 /* BookingAssistant.app */,
+				9BE7B95820A742D200FB1A66 /* BookingAssistantTests.xctest */,
+				9BE7B96320A742D200FB1A66 /* BookingAssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BE7B94620A742D200FB1A66 /* BookingAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B9B120A82CD200FB1A66 /* Utilities */,
+				9BE7B9AE20A81B0E00FB1A66 /* Network */,
+				9BE7B99420A7EE9000FB1A66 /* Controllers */,
+				9BE7B9A020A7EE9100FB1A66 /* Extensions */,
+				9BE7B99220A7EE9000FB1A66 /* Models */,
+				9BE7B98D20A7EE9000FB1A66 /* Storyboards */,
+				9BE7B99620A7EE9000FB1A66 /* Views */,
+				9BE7B98920A7EDAC00FB1A66 /* AppDelegate */,
+				9BE7B94E20A742D200FB1A66 /* Assets.xcassets */,
+				9BE7B95320A742D200FB1A66 /* Info.plist */,
+			);
+			path = BookingAssistant;
+			sourceTree = "<group>";
+		};
+		9BE7B95B20A742D200FB1A66 /* BookingAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B95C20A742D200FB1A66 /* BookingAssistantTests.swift */,
+				9BE7B95E20A742D200FB1A66 /* Info.plist */,
+			);
+			path = BookingAssistantTests;
+			sourceTree = "<group>";
+		};
+		9BE7B96620A742D200FB1A66 /* BookingAssistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B96720A742D200FB1A66 /* BookingAssistantUITests.swift */,
+				9BE7B96920A742D200FB1A66 /* Info.plist */,
+			);
+			path = BookingAssistantUITests;
+			sourceTree = "<group>";
+		};
+		9BE7B98920A7EDAC00FB1A66 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B98A20A7EDAC00FB1A66 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9BE7B98D20A7EE9000FB1A66 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B98E20A7EE9000FB1A66 /* LaunchScreen.storyboard */,
+				9BE7B99020A7EE9000FB1A66 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9BE7B99220A7EE9000FB1A66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B99320A7EE9000FB1A66 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9BE7B99420A7EE9000FB1A66 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B99520A7EE9000FB1A66 /* ConversationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9BE7B99620A7EE9000FB1A66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B99720A7EE9000FB1A66 /* Cells */,
+				9BE7B99E20A7EE9000FB1A66 /* InputPanel */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BE7B99720A7EE9000FB1A66 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B99820A7EE9000FB1A66 /* Text */,
+				9BE7B99B20A7EE9000FB1A66 /* Base */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9BE7B99820A7EE9000FB1A66 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B99920A7EE9000FB1A66 /* TextMessageCell.swift */,
+				9BE7B99A20A7EE9000FB1A66 /* TextMessageCellLayout.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		9BE7B99B20A7EE9000FB1A66 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B99C20A7EE9000FB1A66 /* BaseMessageCellLayout.swift */,
+				9BE7B99D20A7EE9000FB1A66 /* BaseMessageCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9BE7B99E20A7EE9000FB1A66 /* InputPanel */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B99F20A7EE9000FB1A66 /* ChatInputTextPanel.swift */,
+			);
+			path = InputPanel;
+			sourceTree = "<group>";
+		};
+		9BE7B9A020A7EE9100FB1A66 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B9A120A7EE9100FB1A66 /* NSAttributedString+SizeThatFits.swift */,
+				9BE7B9A220A7EE9100FB1A66 /* UIFont+MediumSystemFont.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9BE7B9AE20A81B0E00FB1A66 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B9AF20A81B2A00FB1A66 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9BE7B9B120A82CD200FB1A66 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9BE7B9B220A82CE100FB1A66 /* MessageManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C29E381594A37F2866DDA909 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4777A338209CC87AB54B9622 /* Pods-BookingAssistant.debug.xcconfig */,
+				B6B278E9DB270DC72F794BB9 /* Pods-BookingAssistant.release.xcconfig */,
+				FB25BE4AB873292B9A950B6B /* Pods-BookingAssistantTests.debug.xcconfig */,
+				A37EA692139F09D76065AD3E /* Pods-BookingAssistantTests.release.xcconfig */,
+				34438EBBB640C844660256C1 /* Pods-BookingAssistantUITests.debug.xcconfig */,
+				DDEA9CE7C1278C5FE3289525 /* Pods-BookingAssistantUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BE7B94320A742D200FB1A66 /* BookingAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE7B96C20A742D200FB1A66 /* Build configuration list for PBXNativeTarget "BookingAssistant" */;
+			buildPhases = (
+				A7F212802E3DCAE7CFA25C82 /* [CP] Check Pods Manifest.lock */,
+				9BE7B94020A742D200FB1A66 /* Sources */,
+				9BE7B94120A742D200FB1A66 /* Frameworks */,
+				9BE7B94220A742D200FB1A66 /* Resources */,
+				84862DD6C9E6174177F54DC0 /* [CP] Embed Pods Frameworks */,
+				1EDC21879BD9FE558BB2911F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookingAssistant;
+			productName = BookingAssistant;
+			productReference = 9BE7B94420A742D200FB1A66 /* BookingAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BE7B95720A742D200FB1A66 /* BookingAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE7B96F20A742D200FB1A66 /* Build configuration list for PBXNativeTarget "BookingAssistantTests" */;
+			buildPhases = (
+				49E6E5A6063DC5F9A83F1477 /* [CP] Check Pods Manifest.lock */,
+				9BE7B95420A742D200FB1A66 /* Sources */,
+				9BE7B95520A742D200FB1A66 /* Frameworks */,
+				9BE7B95620A742D200FB1A66 /* Resources */,
+				F8A126DF50EEB31C9777638B /* [CP] Embed Pods Frameworks */,
+				BB5BB1B223490BB33D127F1F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE7B95A20A742D200FB1A66 /* PBXTargetDependency */,
+			);
+			name = BookingAssistantTests;
+			productName = BookingAssistantTests;
+			productReference = 9BE7B95820A742D200FB1A66 /* BookingAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BE7B96220A742D200FB1A66 /* BookingAssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE7B97220A742D200FB1A66 /* Build configuration list for PBXNativeTarget "BookingAssistantUITests" */;
+			buildPhases = (
+				7C6AFA593F822FA30CFB60AF /* [CP] Check Pods Manifest.lock */,
+				9BE7B95F20A742D200FB1A66 /* Sources */,
+				9BE7B96020A742D200FB1A66 /* Frameworks */,
+				9BE7B96120A742D200FB1A66 /* Resources */,
+				6B7F0728476551B52CDED960 /* [CP] Embed Pods Frameworks */,
+				714D00D9C3EE0AD83789A7C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE7B96520A742D200FB1A66 /* PBXTargetDependency */,
+			);
+			name = BookingAssistantUITests;
+			productName = BookingAssistantUITests;
+			productReference = 9BE7B96320A742D200FB1A66 /* BookingAssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BE7B93C20A742D200FB1A66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					9BE7B94320A742D200FB1A66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9BE7B95720A742D200FB1A66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BE7B94320A742D200FB1A66;
+					};
+					9BE7B96220A742D200FB1A66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BE7B94320A742D200FB1A66;
+					};
+				};
+			};
+			buildConfigurationList = 9BE7B93F20A742D200FB1A66 /* Build configuration list for PBXProject "BookingAssistant" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BE7B93B20A742D200FB1A66;
+			productRefGroup = 9BE7B94520A742D200FB1A66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE7B94320A742D200FB1A66 /* BookingAssistant */,
+				9BE7B95720A742D200FB1A66 /* BookingAssistantTests */,
+				9BE7B96220A742D200FB1A66 /* BookingAssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BE7B94220A742D200FB1A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7B9A420A7EE9100FB1A66 /* Main.storyboard in Resources */,
+				9BE7B9A320A7EE9100FB1A66 /* LaunchScreen.storyboard in Resources */,
+				9BE7B94F20A742D200FB1A66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE7B95620A742D200FB1A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE7B96120A742D200FB1A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EDC21879BD9FE558BB2911F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookingAssistant/Pods-BookingAssistant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49E6E5A6063DC5F9A83F1477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookingAssistantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B7F0728476551B52CDED960 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookingAssistantUITests/Pods-BookingAssistantUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		714D00D9C3EE0AD83789A7C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookingAssistantUITests/Pods-BookingAssistantUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C6AFA593F822FA30CFB60AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookingAssistantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84862DD6C9E6174177F54DC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BookingAssistant/Pods-BookingAssistant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HPGrowingTextView/HPGrowingTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/NoChat/NoChat.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HPGrowingTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NoChat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookingAssistant/Pods-BookingAssistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F212802E3DCAE7CFA25C82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookingAssistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5BB1B223490BB33D127F1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookingAssistantTests/Pods-BookingAssistantTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A126DF50EEB31C9777638B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookingAssistantTests/Pods-BookingAssistantTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BE7B94020A742D200FB1A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7B9B020A81B2A00FB1A66 /* NetworkService.swift in Sources */,
+				9BE7B9AB20A7EE9100FB1A66 /* ChatInputTextPanel.swift in Sources */,
+				9BE7B9AD20A7EE9100FB1A66 /* UIFont+MediumSystemFont.swift in Sources */,
+				9BE7B9B320A82CE100FB1A66 /* MessageManager.swift in Sources */,
+				9BE7B9AC20A7EE9100FB1A66 /* NSAttributedString+SizeThatFits.swift in Sources */,
+				9BE7B9A920A7EE9100FB1A66 /* BaseMessageCellLayout.swift in Sources */,
+				9BE7B98B20A7EDAC00FB1A66 /* AppDelegate.swift in Sources */,
+				9BE7B9A520A7EE9100FB1A66 /* Message.swift in Sources */,
+				9BE7B9A720A7EE9100FB1A66 /* TextMessageCell.swift in Sources */,
+				9BE7B9A620A7EE9100FB1A66 /* ConversationViewController.swift in Sources */,
+				9BE7B9AA20A7EE9100FB1A66 /* BaseMessageCell.swift in Sources */,
+				9BE7B9A820A7EE9100FB1A66 /* TextMessageCellLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE7B95420A742D200FB1A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7B95D20A742D200FB1A66 /* BookingAssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE7B95F20A742D200FB1A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7B96820A742D200FB1A66 /* BookingAssistantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BE7B95A20A742D200FB1A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE7B94320A742D200FB1A66 /* BookingAssistant */;
+			targetProxy = 9BE7B95920A742D200FB1A66 /* PBXContainerItemProxy */;
+		};
+		9BE7B96520A742D200FB1A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE7B94320A742D200FB1A66 /* BookingAssistant */;
+			targetProxy = 9BE7B96420A742D200FB1A66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BE7B98E20A7EE9000FB1A66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE7B98F20A7EE9000FB1A66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE7B99020A7EE9000FB1A66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE7B99120A7EE9000FB1A66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BE7B96A20A742D200FB1A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BE7B96B20A742D200FB1A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BE7B96D20A742D200FB1A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4777A338209CC87AB54B9622 /* Pods-BookingAssistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashish.BookingAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BE7B96E20A742D200FB1A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B278E9DB270DC72F794BB9 /* Pods-BookingAssistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashish.BookingAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BE7B97020A742D200FB1A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB25BE4AB873292B9A950B6B /* Pods-BookingAssistantTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAssistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashish.BookingAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookingAssistant.app/BookingAssistant";
+			};
+			name = Debug;
+		};
+		9BE7B97120A742D200FB1A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A37EA692139F09D76065AD3E /* Pods-BookingAssistantTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAssistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashish.BookingAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookingAssistant.app/BookingAssistant";
+			};
+			name = Release;
+		};
+		9BE7B97320A742D200FB1A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34438EBBB640C844660256C1 /* Pods-BookingAssistantUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAssistantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashish.BookingAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookingAssistant;
+			};
+			name = Debug;
+		};
+		9BE7B97420A742D200FB1A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDEA9CE7C1278C5FE3289525 /* Pods-BookingAssistantUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookingAssistantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashish.BookingAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookingAssistant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BE7B93F20A742D200FB1A66 /* Build configuration list for PBXProject "BookingAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE7B96A20A742D200FB1A66 /* Debug */,
+				9BE7B96B20A742D200FB1A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE7B96C20A742D200FB1A66 /* Build configuration list for PBXNativeTarget "BookingAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE7B96D20A742D200FB1A66 /* Debug */,
+				9BE7B96E20A742D200FB1A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE7B96F20A742D200FB1A66 /* Build configuration list for PBXNativeTarget "BookingAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE7B97020A742D200FB1A66 /* Debug */,
+				9BE7B97120A742D200FB1A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE7B97220A742D200FB1A66 /* Build configuration list for PBXNativeTarget "BookingAssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE7B97320A742D200FB1A66 /* Debug */,
+				9BE7B97420A742D200FB1A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BE7B93C20A742D200FB1A66 /* Project object */;
+}

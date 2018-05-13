@@ -1,0 +1,1469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05540CF97DE4C41467ADC20C112A5431 /* YYTextKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEEF19B954760473171D073013B10BE /* YYTextKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CAF1AB28B34A80A7891A0805DFF45D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B249C21FE178D4A257DE4CAF29E11 /* Foundation.framework */; };
+		0CAFF0329CACA0C66E206C4D42614A57 /* YYTextAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F25C5C2337FC27D8E129DBDCAFFCD4 /* YYTextAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E5C47AA657FE62EDD16C87D604F7733 /* YYTextParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D71C39EBB3E331ABB9475575B84E906 /* YYTextParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		101968EE94977B200B288AFD6B271DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B249C21FE178D4A257DE4CAF29E11 /* Foundation.framework */; };
+		11F5EBB7481DFE9E49A4B3FE2BA3C653 /* HPTextViewInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = BEFABD8445DE7596D7D265BFCFA92F9C /* HPTextViewInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		134FDC985D4FA91B5BFE9C39161B8B17 /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E3B8897DD4337EE0671EBFFF1867A2 /* YYTextAttribute.m */; };
+		13D2A6288574E7E4CFF9921A8981FCA8 /* YYTextMagnifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7E35B71DC25BED2F271A338FF69533 /* YYTextMagnifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15A29100DDF5C677E334AC7A53EA14A8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A697C56B93860A1735867FE931FA9271 /* MobileCoreServices.framework */; };
+		1DEAE7FF2FA1BE8495BE2E7AFB0270E3 /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = C416B4F3C25482E7BD5732068E8F25F0 /* UIPasteboard+YYText.m */; };
+		20E63898AD0F1B32842D1B6D56B8316D /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 49445FB0B555779E7C3E12A545FF3A16 /* YYTextTransaction.m */; };
+		22EAE7BF3C2D97277ED0EABFDA9520EC /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B9E1041B04F5C9E6442D9C6EBB863D /* YYTextDebugOption.m */; };
+		284CE0942DF725F7068416C5A1E8CB6D /* Pods-BookingAssistantTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E66AC4193BA5191C0CC2CD833948822 /* Pods-BookingAssistantTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D299C497DDC974609607E85E819F73 /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C840AEA9768879F1641C6EEB915F97 /* YYTextContainerView.m */; };
+		35C3A207965FBA34CD5161CB77AE72D3 /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5608FF4B81F0CC40BED433CFDF075AE8 /* YYTextUtilities.m */; };
+		36A222D4954693BE1B02975C774B1390 /* UIView+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 9895A05946283CB988750F091FE25C3D /* UIView+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E8F4396F6E3127B8076AADCDDCD4D8 /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA03BB62A18AD6633F5BE5C225E1A7 /* YYTextEffectWindow.m */; };
+		38CAA746CCE360E0EEEDFB26D0AB4584 /* NOCChatContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BACC72365F11ABC5FA172569EDCEEC48 /* NOCChatContainerView.m */; };
+		3C6786D8D4AE1F7549A1B4B18525200D /* NOCChatItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4469B6D437C845E7021DAEBC278A207D /* NOCChatItemCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E48BEA0CC30CF705B245361B09F6972 /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A53CFCAC57D7B5E2650472146C68C /* YYTextRubyAnnotation.m */; };
+		434CACD2433F6E5D574191D4DE43D9D7 /* NSParagraphStyle+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 501AED54EF3E53442DE5621F9372EDFB /* NSParagraphStyle+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		496C1DEBB16793A3E2573A7FB2850006 /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB2F79784D9BE61C15916C3D41B531E /* YYTextKeyboardManager.m */; };
+		4F215188F401EDA2FB6CE3DE987F8038 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0525E07A8CAE299CB20D411AA8A1138E /* Accelerate.framework */; };
+		4FAED6B0825524DF198D26550B1F5A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B249C21FE178D4A257DE4CAF29E11 /* Foundation.framework */; };
+		51EB33B0AC6AA11F31A10B12709CDF3B /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8234470B08024E1A93547BBD4FB46D7 /* YYTextRunDelegate.m */; };
+		5477A5B6239ACCA96A72955DA1823E3B /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A5BEF4499AB38F143D5CEAFBEB631 /* HPTextViewInternal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		565A7D9A7FDCE826CC3F8F51AD562C14 /* YYTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA2D2DB43F3AC6034E678D7D751C0C4 /* YYTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A6FBE8CAE3732D2E691D45F03808007 /* YYTextContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB66DEB16A4FD29BBAA0D4EB3017001F /* YYTextContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D3278DFDFB2CD285CB184C2524989F2 /* YYTextUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEA7F0199680FCB8C74C89DF0529C71 /* YYTextUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		648EC36B740956CE35ADCC2CA27BE7FF /* UIPasteboard+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = B87F8BED99ACBCA74C20FCA67FB004D7 /* UIPasteboard+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A2FF445FFB54EF155DF167E564248D /* YYTextAsyncLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4A6838E1CCC6F807AA4ACD1AAF292C /* YYTextAsyncLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		660E505F713DCBC48DF75D840B4B293E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B249C21FE178D4A257DE4CAF29E11 /* Foundation.framework */; };
+		6929DCAF3E3D4308134C0B97DC369D85 /* NOCChatCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8BB053911864F94704AD9554E6A796 /* NOCChatCollectionView.m */; };
+		69BA2C4E655B8F6ACF0CD8F051D10847 /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 64990EEF5ADD66FA76CC55714F0B737C /* NSAttributedString+YYText.m */; };
+		69EC263BD72EE845DC407E0F10DC3A78 /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = A11ABE1913DE5E6CBCF486F9DE8C8F19 /* NSParagraphStyle+YYText.m */; };
+		6A45982A3893A2C50A9592D7E7F10297 /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 812608AB56EFDEFFAD63C934A9799F6C /* YYTextSelectionView.m */; };
+		7096A9C0A7A8EE136301C1B59C97F182 /* NOCChatViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4C1CC6257F0508776BCCDAE17FFEEE /* NOCChatViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BD5DC4D6D9E012511E4AE1DABC9747 /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = DE109EE811568063ED80AE8DC492A87A /* YYTextLine.m */; };
+		7495A2A1262E693E8B98D6B66BC98128 /* HPGrowingTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F44C2535714CF241A9AC540FA90A643 /* HPGrowingTextView-dummy.m */; };
+		7E0B0C847CE33438DF7D08D98F4558AE /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 932D4176847BBAB0101A130F35062E2E /* YYTextLayout.m */; };
+		807FC564CBC0D2743913F2A8CC36FEEC /* YYTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A9DA09B6D34A1995F2ECAAA1D8D03F /* YYTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8217C3546E1C9089EFE7A29D13CD2BDC /* YYTextTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDA1ACCE5F23B10DB0CD5522596CAFA /* YYTextTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B9A267547036644FB2DF0B601C6C50E /* YYTextSelectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E663AB6A0A5BA0F27DC4D32BA6DF69 /* YYTextSelectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D373E66EDCC6940EAD1A2B1C22DA25F /* NOCChatInputPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE08569705B594B070516602A2C0E6 /* NOCChatInputPanel.m */; };
+		8FB1A2D6E3E594C65B990BA4F228D8BE /* YYTextEffectWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC629FAD5ADC17117DF010EBC1B1C86 /* YYTextEffectWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FF0C9D8D2D3ECC46FA97AB9426BE038 /* NOCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39308A3BC19534FAA5BA436C329596EF /* NOCChatViewController.m */; };
+		9688611D71CF30DA2C822A3995B1C725 /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0314F4BC2DE5CB2859FD9A9666FEA /* YYTextAsyncLayer.m */; };
+		97CC2E045C2F24310E0E303AC934F0BA /* YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1EF83F62E2EC15AF3FB337B6F1E6C4 /* YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BAC385EAE355358C4D8C0D7F8C2BB5B /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5335E497400CF2A0BA865C1F65A99A9 /* YYTextView.m */; };
+		9F50305529394B61BF6F550C22302410 /* NOCChatItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BF271EBB9EDD92CB3DED9FC10725BB05 /* NOCChatItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B1D41F11518BF5113C414F5ECD6ADD /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3191E6924F460CF8430CAB2F51402198 /* UIView+YYText.m */; };
+		AC4AB8E13BAC797F454514D2A95D7322 /* HPGrowingTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36412B3D556D3C2FEE4EF47F340E7741 /* HPGrowingTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0CC5C28903773842BA29D4BF14A91BD /* NOCChatInputPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = E11F74128BD527F3ABEC1066A1923B2D /* NOCChatInputPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A6D1C026FAB1C748B888E87FD7AED7 /* YYTextArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD4B8494D9865470E71ECB8C89623D2 /* YYTextArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2E7EB334657AD86053041165DE48765 /* YYTextWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A0114A87B90EEFE0969E6B9E391794 /* YYTextWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3493F1326A48FE0E0E3BE98ABAFCCA2 /* Pods-BookingAssistantUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD4F9F44A44DF33EE16C5BC00AABA42 /* Pods-BookingAssistantUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8AB64D260A8ABEC9AE43CE5942E147E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B249C21FE178D4A257DE4CAF29E11 /* Foundation.framework */; };
+		B98758A586DEE16FB0DE8F1F98E78D03 /* Pods-BookingAssistantUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25787327A1AF5783CBF0D93525D07C72 /* Pods-BookingAssistantUITests-dummy.m */; };
+		B9C617AD229786AC22D834DB81B7BA6D /* YYText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8EA56F68E565966E8F1B01FCC56033 /* YYText-dummy.m */; };
+		BC3AE888C8FF377FF060D92EDB3C14A4 /* Pods-BookingAssistant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8AB262E816CA16CF7884CC1B0A29F4 /* Pods-BookingAssistant-dummy.m */; };
+		C02E61608FF5DE040254873E6039ECF1 /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E5A186665938B57E38A5466E28E03B /* YYTextInput.m */; };
+		C0D760FAF17B28928AC76FAA510EF388 /* NSAttributedString+YYText.h in Headers */ = {isa = PBXBuildFile; fileRef = 7888A38C8DAA81F2202F9B3A4A47A22D /* NSAttributedString+YYText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1FECAE5D19135D6FA5F1C3BC9741325 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985DBD70FB245138EC45B091E7D1B704 /* CoreText.framework */; };
+		C21F740E3620824F2473B721717C2DD6 /* NOCChatContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FAED66AC02F2C74F37E866B06D4A35 /* NOCChatContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2CBDFBD13D6C73391D4CB8F8C7B7E13 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A16452D42467352FD96757F77359EB /* YYLabel.m */; };
+		C89B0A90E904C604818B2B383B66D761 /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 002FED1DBD61A87B357A8EA9B18A7094 /* YYTextParser.m */; };
+		C967A752B1D42B6620E4A1AD19F7D146 /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D0A6A7DB0B7C78012B663757D3AD8 /* YYTextMagnifier.m */; };
+		CD81F0749AB7C898A6DBC36F9AD5AA60 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E24D039BF05D2F12043FDE68EBFF5B70 /* HPGrowingTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D08DD75D280D476D93334A487DEDD9B5 /* NoChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 02766FA0881F4B0B5D493503190DA669 /* NoChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24C61026EE8B93FAE15146096E1D8B4 /* NOCChatCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C5168C2C9F6DD06AE744BB457C8656 /* NOCChatCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D287C903E69204E6B4E665EC637F6991 /* YYTextLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 361F915ED654EA4E40A71EA5182E8552 /* YYTextLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D683328A5CEE1750501B6659E871243A /* NoChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4342643AF1ABD1188925C7C830F0A8B7 /* NoChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA7C5BAAE8CCCA3DAD00D32D3582C597 /* YYText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDFDB537746BC4B4B220932FA7ED42E /* YYText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC83FC33D82CAE19D7D6BFBED04215C0 /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CD9B2DA9B7B63B953BE6884FCA5548 /* YYTextArchiver.m */; };
+		DFCFC20E457BEFCA53A700A2AB7D36F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA15695F87CFC4A9494DF27112E5DE1 /* QuartzCore.framework */; };
+		E071CA7389774F0931A42D50F09D7B98 /* NOCChatItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 645CE4845C5B5C1BE50F3EA7EFEBC9B4 /* NOCChatItemCell.m */; };
+		E26B531FE7A386DDB5DDE2CCE8AB182E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC78F42E53B594EF0B02AD43AD6C7894 /* CoreFoundation.framework */; };
+		E2C141D17BC3D90CE6987BDB807CA342 /* HPGrowingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EB1C65C4D9C96873677F358659E432 /* HPGrowingTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2DC6A0E0A930A4F7B5185D8B12C94CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B249C21FE178D4A257DE4CAF29E11 /* Foundation.framework */; };
+		E36223D08E169101A0C336B47BCF85A1 /* YYTextRubyAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF3B1F8B6F6B4EA7A00A9572E0EEB3C /* YYTextRubyAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E58D5656559C72C27EA7CDC61636F9D3 /* Pods-BookingAssistant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9FEB360455A5C4312ED413E67F9ACD1 /* Pods-BookingAssistant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E756EEBA432C958FF139CB4479225C00 /* YYTextDebugOption.h in Headers */ = {isa = PBXBuildFile; fileRef = A088D56DBFCA86416855011C7F8887B2 /* YYTextDebugOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE98C305757C0E19122EF63236099D5F /* NoChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CF7AA2F666DD7A28F0683D6197E1FE /* NoChat-dummy.m */; };
+		EF4C5417B9E6092367C2C7C8007ED902 /* YYTextRunDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2DF9C02D5204E730F673680CEF8D12 /* YYTextRunDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF566AC0E1DF35DBD1AE7880084359E2 /* NOCChatCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 650BBB4CFF324898614DF4B056F70E47 /* NOCChatCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFB46B1D9FAB831E709DC951D9E9424E /* YYLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC3DE1CD93AD8F0D307BB37912991C1 /* YYLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F037E6589D71EDF3E153A5CD64354AF7 /* YYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = FCEE2637E80D6C4246FE82DEA14A31D7 /* YYTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F143FEFEE261033933448F1EBBD2412A /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5891247324155FC4982210DA5CD81BEC /* YYTextWeakProxy.m */; };
+		F24A081D57B8FBAE229E8AAD2D01A8F8 /* NOCChatItemCellLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A078A26971AE4E646C262E6DDF4CBB1 /* NOCChatItemCellLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F405040D79586877A4DBF0D4A8D77496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552350B0C2360B478A721EB17E853ED5 /* UIKit.framework */; };
+		F7A4E0465321BC5553EECAA170B71445 /* NOCChatCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E83778D03D1DFBFA94154F56ABFA5F /* NOCChatCollectionViewLayout.m */; };
+		FFDFCE1CA900662F0A771FE6CD2B3D7C /* Pods-BookingAssistantTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A9196C1EA0BF04ED757970B66394B0 /* Pods-BookingAssistantTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D46C487E92E6D70860C2E0F08E99704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64FE122BD3CE0F1BC99699025AE3D333;
+			remoteInfo = NoChat;
+		};
+		A75B5F5AFD9953EA735CC08B6AEE4650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CEB6E7B326131D976C2028E2B068634;
+			remoteInfo = YYText;
+		};
+		D2038F36B81E55F4539456526D257E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617D61FCB3A3DFF8E75036B33D8E9BA1;
+			remoteInfo = HPGrowingTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002FED1DBD61A87B357A8EA9B18A7094 /* YYTextParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextParser.m; path = YYText/String/YYTextParser.m; sourceTree = "<group>"; };
+		02766FA0881F4B0B5D493503190DA669 /* NoChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NoChat.h; path = NoChat/NoChat/NoChat.h; sourceTree = "<group>"; };
+		03E3B8897DD4337EE0671EBFFF1867A2 /* YYTextAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextAttribute.m; path = YYText/String/YYTextAttribute.m; sourceTree = "<group>"; };
+		0525E07A8CAE299CB20D411AA8A1138E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		0C95ED1C5D96E0CAC9DA78F18B8776D3 /* Pods-BookingAssistantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingAssistantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0DC3DE1CD93AD8F0D307BB37912991C1 /* YYLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYLabel.h; path = YYText/YYLabel.h; sourceTree = "<group>"; };
+		0DF3B1F8B6F6B4EA7A00A9572E0EEB3C /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextRubyAnnotation.h; path = YYText/String/YYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		0FAFD5BE2892BD07E36B0D8ACEFD909E /* Pods-BookingAssistantTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookingAssistantTests-frameworks.sh"; sourceTree = "<group>"; };
+		11CF7AA2F666DD7A28F0683D6197E1FE /* NoChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NoChat-dummy.m"; sourceTree = "<group>"; };
+		18F86014D2A56F429ED0C0C96E6A51E8 /* Pods_BookingAssistantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BookingAssistantUITests.framework; path = "Pods-BookingAssistantUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A078A26971AE4E646C262E6DDF4CBB1 /* NOCChatItemCellLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatItemCellLayout.h; path = NoChat/NoChat/NOCChatItemCellLayout.h; sourceTree = "<group>"; };
+		1BE4E56BD52C33A328B3E7019A5CE72E /* Pods-BookingAssistantUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BookingAssistantUITests.modulemap"; sourceTree = "<group>"; };
+		1CA2D2DB43F3AC6034E678D7D751C0C4 /* YYTextLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextLayout.h; path = YYText/Component/YYTextLayout.h; sourceTree = "<group>"; };
+		1D71C39EBB3E331ABB9475575B84E906 /* YYTextParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextParser.h; path = YYText/String/YYTextParser.h; sourceTree = "<group>"; };
+		1E8AB262E816CA16CF7884CC1B0A29F4 /* Pods-BookingAssistant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookingAssistant-dummy.m"; sourceTree = "<group>"; };
+		22CF2AD8B67C6FEBCA66107DB0D4C73B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25787327A1AF5783CBF0D93525D07C72 /* Pods-BookingAssistantUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookingAssistantUITests-dummy.m"; sourceTree = "<group>"; };
+		25E663AB6A0A5BA0F27DC4D32BA6DF69 /* YYTextSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextSelectionView.h; path = YYText/Component/YYTextSelectionView.h; sourceTree = "<group>"; };
+		268F5AF2A460050FAD1C81D568C9EC0F /* Pods-BookingAssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingAssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29F25C5C2337FC27D8E129DBDCAFFCD4 /* YYTextAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextAttribute.h; path = YYText/String/YYTextAttribute.h; sourceTree = "<group>"; };
+		2CAE08569705B594B070516602A2C0E6 /* NOCChatInputPanel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatInputPanel.m; path = NoChat/NoChat/NOCChatInputPanel.m; sourceTree = "<group>"; };
+		2E66AC4193BA5191C0CC2CD833948822 /* Pods-BookingAssistantTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookingAssistantTests-umbrella.h"; sourceTree = "<group>"; };
+		3191E6924F460CF8430CAB2F51402198 /* UIView+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YYText.m"; path = "YYText/Utility/UIView+YYText.m"; sourceTree = "<group>"; };
+		329745FE4D89E245737E06492FA3EB4D /* NoChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NoChat.modulemap; sourceTree = "<group>"; };
+		361F915ED654EA4E40A71EA5182E8552 /* YYTextLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextLine.h; path = YYText/Component/YYTextLine.h; sourceTree = "<group>"; };
+		36412B3D556D3C2FEE4EF47F340E7741 /* HPGrowingTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPGrowingTextView-umbrella.h"; sourceTree = "<group>"; };
+		39308A3BC19534FAA5BA436C329596EF /* NOCChatViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatViewController.m; path = NoChat/NoChat/NOCChatViewController.m; sourceTree = "<group>"; };
+		393F2855351BF08BEA766325B2BB812D /* Pods-BookingAssistant-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookingAssistant-acknowledgements.plist"; sourceTree = "<group>"; };
+		3AB2F79784D9BE61C15916C3D41B531E /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextKeyboardManager.m; path = YYText/Component/YYTextKeyboardManager.m; sourceTree = "<group>"; };
+		3C7E35B71DC25BED2F271A338FF69533 /* YYTextMagnifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextMagnifier.h; path = YYText/Component/YYTextMagnifier.h; sourceTree = "<group>"; };
+		4342643AF1ABD1188925C7C830F0A8B7 /* NoChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoChat-umbrella.h"; sourceTree = "<group>"; };
+		4469B6D437C845E7021DAEBC278A207D /* NOCChatItemCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatItemCell.h; path = NoChat/NoChat/NOCChatItemCell.h; sourceTree = "<group>"; };
+		44DC61553A5FE6BA2798EF60478ACA8F /* Pods_BookingAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BookingAssistant.framework; path = "Pods-BookingAssistant.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A9196C1EA0BF04ED757970B66394B0 /* Pods-BookingAssistantTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookingAssistantTests-dummy.m"; sourceTree = "<group>"; };
+		49445FB0B555779E7C3E12A545FF3A16 /* YYTextTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextTransaction.m; path = YYText/Utility/YYTextTransaction.m; sourceTree = "<group>"; };
+		4BDA03BB62A18AD6633F5BE5C225E1A7 /* YYTextEffectWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextEffectWindow.m; path = YYText/Component/YYTextEffectWindow.m; sourceTree = "<group>"; };
+		4D58569A846E6683F8FD68B60F6F7C24 /* HPGrowingTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPGrowingTextView-prefix.pch"; sourceTree = "<group>"; };
+		4D79C2F4C922732B53D0DF818E444836 /* Pods-BookingAssistantTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BookingAssistantTests.modulemap"; sourceTree = "<group>"; };
+		501AED54EF3E53442DE5621F9372EDFB /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSParagraphStyle+YYText.h"; path = "YYText/Utility/NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		552350B0C2360B478A721EB17E853ED5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5608FF4B81F0CC40BED433CFDF075AE8 /* YYTextUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextUtilities.m; path = YYText/Utility/YYTextUtilities.m; sourceTree = "<group>"; };
+		584060CAF658EA06D54EDE5FC4FF6A07 /* HPGrowingTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HPGrowingTextView.xcconfig; sourceTree = "<group>"; };
+		5891247324155FC4982210DA5CD81BEC /* YYTextWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextWeakProxy.m; path = YYText/Utility/YYTextWeakProxy.m; sourceTree = "<group>"; };
+		58C840AEA9768879F1641C6EEB915F97 /* YYTextContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextContainerView.m; path = YYText/Component/YYTextContainerView.m; sourceTree = "<group>"; };
+		5AA15695F87CFC4A9494DF27112E5DE1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5CA08C1DD76F3DD1A612DCFE47178658 /* YYText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYText.framework; path = YYText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC39DC5217C21D225719B426A7FB70C /* YYText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YYText.modulemap; sourceTree = "<group>"; };
+		6280D35F58FAAA2BCD86CD35F781B0DD /* Pods-BookingAssistantTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookingAssistantTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63597BAB9A91BC0FDDABFCB9EEE21D78 /* Pods-BookingAssistant-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookingAssistant-resources.sh"; sourceTree = "<group>"; };
+		645CE4845C5B5C1BE50F3EA7EFEBC9B4 /* NOCChatItemCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatItemCell.m; path = NoChat/NoChat/NOCChatItemCell.m; sourceTree = "<group>"; };
+		64990EEF5ADD66FA76CC55714F0B737C /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+YYText.m"; path = "YYText/Utility/NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		650BBB4CFF324898614DF4B056F70E47 /* NOCChatCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatCollectionViewLayout.h; path = NoChat/NoChat/NOCChatCollectionViewLayout.h; sourceTree = "<group>"; };
+		66B9E1041B04F5C9E6442D9C6EBB863D /* YYTextDebugOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextDebugOption.m; path = YYText/Component/YYTextDebugOption.m; sourceTree = "<group>"; };
+		68C5168C2C9F6DD06AE744BB457C8656 /* NOCChatCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatCollectionView.h; path = NoChat/NoChat/NOCChatCollectionView.h; sourceTree = "<group>"; };
+		69E5A186665938B57E38A5466E28E03B /* YYTextInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextInput.m; path = YYText/Component/YYTextInput.m; sourceTree = "<group>"; };
+		6B458AEAAE6B1366034A835E0668CBD4 /* Pods-BookingAssistantUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookingAssistantUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6C3A2F75356D27E3CC928CA50A0EB84A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDA1ACCE5F23B10DB0CD5522596CAFA /* YYTextTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextTransaction.h; path = YYText/Utility/YYTextTransaction.h; sourceTree = "<group>"; };
+		6DC0314F4BC2DE5CB2859FD9A9666FEA /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextAsyncLayer.m; path = YYText/Utility/YYTextAsyncLayer.m; sourceTree = "<group>"; };
+		73A16452D42467352FD96757F77359EB /* YYLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYLabel.m; path = YYText/YYLabel.m; sourceTree = "<group>"; };
+		761D0A6A7DB0B7C78012B663757D3AD8 /* YYTextMagnifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextMagnifier.m; path = YYText/Component/YYTextMagnifier.m; sourceTree = "<group>"; };
+		7888A38C8DAA81F2202F9B3A4A47A22D /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+YYText.h"; path = "YYText/Utility/NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		7CEA7F0199680FCB8C74C89DF0529C71 /* YYTextUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextUtilities.h; path = YYText/Utility/YYTextUtilities.h; sourceTree = "<group>"; };
+		812608AB56EFDEFFAD63C934A9799F6C /* YYTextSelectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextSelectionView.m; path = YYText/Component/YYTextSelectionView.m; sourceTree = "<group>"; };
+		8513AC79F5C72BE4A2244F3BA11FBC38 /* Pods-BookingAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		85A0114A87B90EEFE0969E6B9E391794 /* YYTextWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextWeakProxy.h; path = YYText/Utility/YYTextWeakProxy.h; sourceTree = "<group>"; };
+		87CD9B2DA9B7B63B953BE6884FCA5548 /* YYTextArchiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextArchiver.m; path = YYText/String/YYTextArchiver.m; sourceTree = "<group>"; };
+		8A5214FC14F9B85CA3987FA2CF482436 /* Pods-BookingAssistantUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookingAssistantUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AEEF19B954760473171D073013B10BE /* YYTextKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextKeyboardManager.h; path = YYText/Component/YYTextKeyboardManager.h; sourceTree = "<group>"; };
+		8C4A6838E1CCC6F807AA4ACD1AAF292C /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextAsyncLayer.h; path = YYText/Utility/YYTextAsyncLayer.h; sourceTree = "<group>"; };
+		8ECC047C17E6B974DF086B320749C80E /* NoChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoChat-prefix.pch"; sourceTree = "<group>"; };
+		8F44C2535714CF241A9AC540FA90A643 /* HPGrowingTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HPGrowingTextView-dummy.m"; sourceTree = "<group>"; };
+		90A3C2197D0096B854B937071EF876DA /* YYText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYText.xcconfig; sourceTree = "<group>"; };
+		932D4176847BBAB0101A130F35062E2E /* YYTextLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextLayout.m; path = YYText/Component/YYTextLayout.m; sourceTree = "<group>"; };
+		93A063AED62D6E2084A45B0DDCB015DF /* Pods-BookingAssistantUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookingAssistantUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		985DBD70FB245138EC45B091E7D1B704 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		9895A05946283CB988750F091FE25C3D /* UIView+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YYText.h"; path = "YYText/Utility/UIView+YYText.h"; sourceTree = "<group>"; };
+		9B8BB053911864F94704AD9554E6A796 /* NOCChatCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatCollectionView.m; path = NoChat/NoChat/NOCChatCollectionView.m; sourceTree = "<group>"; };
+		A088D56DBFCA86416855011C7F8887B2 /* YYTextDebugOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextDebugOption.h; path = YYText/Component/YYTextDebugOption.h; sourceTree = "<group>"; };
+		A11ABE1913DE5E6CBCF486F9DE8C8F19 /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSParagraphStyle+YYText.m"; path = "YYText/Utility/NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
+		A4FAED66AC02F2C74F37E866B06D4A35 /* NOCChatContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatContainerView.h; path = NoChat/NoChat/NOCChatContainerView.h; sourceTree = "<group>"; };
+		A697C56B93860A1735867FE931FA9271 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		A6EB1C65C4D9C96873677F358659E432 /* HPGrowingTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HPGrowingTextView.h; path = class/HPGrowingTextView.h; sourceTree = "<group>"; };
+		A8234470B08024E1A93547BBD4FB46D7 /* YYTextRunDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextRunDelegate.m; path = YYText/String/YYTextRunDelegate.m; sourceTree = "<group>"; };
+		A9363011BC6EB6AE6884E99D2F2CD497 /* Pods-BookingAssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingAssistantTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACB8CDB755E96596862DECA8616CEBD1 /* Pods-BookingAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingAssistant.debug.xcconfig"; sourceTree = "<group>"; };
+		AD2DF9C02D5204E730F673680CEF8D12 /* YYTextRunDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextRunDelegate.h; path = YYText/String/YYTextRunDelegate.h; sourceTree = "<group>"; };
+		AF237EBC262717496371E3326413EDE2 /* Pods_BookingAssistantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BookingAssistantTests.framework; path = "Pods-BookingAssistantTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2651C1B62B7E43A1934738157E6D5EE /* Pods-BookingAssistantTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookingAssistantTests-resources.sh"; sourceTree = "<group>"; };
+		B5335E497400CF2A0BA865C1F65A99A9 /* YYTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextView.m; path = YYText/YYTextView.m; sourceTree = "<group>"; };
+		B87F8BED99ACBCA74C20FCA67FB004D7 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPasteboard+YYText.h"; path = "YYText/Utility/UIPasteboard+YYText.h"; sourceTree = "<group>"; };
+		BAC8BBAB934444CDA95685E81845F292 /* Pods-BookingAssistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingAssistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BACC72365F11ABC5FA172569EDCEEC48 /* NOCChatContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatContainerView.m; path = NoChat/NoChat/NOCChatContainerView.m; sourceTree = "<group>"; };
+		BB8EA56F68E565966E8F1B01FCC56033 /* YYText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYText-dummy.m"; sourceTree = "<group>"; };
+		BBD4B8494D9865470E71ECB8C89623D2 /* YYTextArchiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextArchiver.h; path = YYText/String/YYTextArchiver.h; sourceTree = "<group>"; };
+		BEC6347E38D5E985D789EB7A08B2246F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFABD8445DE7596D7D265BFCFA92F9C /* HPTextViewInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HPTextViewInternal.h; path = class/HPTextViewInternal.h; sourceTree = "<group>"; };
+		BF271EBB9EDD92CB3DED9FC10725BB05 /* NOCChatItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatItem.h; path = NoChat/NoChat/NOCChatItem.h; sourceTree = "<group>"; };
+		BF4C1CC6257F0508776BCCDAE17FFEEE /* NOCChatViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatViewController.h; path = NoChat/NoChat/NOCChatViewController.h; sourceTree = "<group>"; };
+		C0E83778D03D1DFBFA94154F56ABFA5F /* NOCChatCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatCollectionViewLayout.m; path = NoChat/NoChat/NOCChatCollectionViewLayout.m; sourceTree = "<group>"; };
+		C2FF1928ADBEA1C3D1218A1BD25A9CD2 /* HPGrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HPGrowingTextView.framework; path = HPGrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C416B4F3C25482E7BD5732068E8F25F0 /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPasteboard+YYText.m"; path = "YYText/Utility/UIPasteboard+YYText.m"; sourceTree = "<group>"; };
+		C59B249C21FE178D4A257DE4CAF29E11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C769520C821F36807E91F6CCB033B855 /* Pods-BookingAssistant-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookingAssistant-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA6A5BEF4499AB38F143D5CEAFBEB631 /* HPTextViewInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HPTextViewInternal.m; path = class/HPTextViewInternal.m; sourceTree = "<group>"; };
+		CAC629FAD5ADC17117DF010EBC1B1C86 /* YYTextEffectWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextEffectWindow.h; path = YYText/Component/YYTextEffectWindow.h; sourceTree = "<group>"; };
+		CC2A53A06AAC673FEF55045D4410CCBB /* HPGrowingTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HPGrowingTextView.modulemap; sourceTree = "<group>"; };
+		CD4CB665654553AEA5002ACEDF679372 /* Pods-BookingAssistant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BookingAssistant.modulemap"; sourceTree = "<group>"; };
+		CEFC3FB66DAF122D51AEB760B9EAE673 /* Pods-BookingAssistantUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookingAssistantUITests-resources.sh"; sourceTree = "<group>"; };
+		D08001EB4C10D4520022998998C3E43B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FF5A7D97F8C652F102ED95A54744DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19A53CFCAC57D7B5E2650472146C68C /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextRubyAnnotation.m; path = YYText/String/YYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		D2A9DA09B6D34A1995F2ECAAA1D8D03F /* YYTextInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextInput.h; path = YYText/Component/YYTextInput.h; sourceTree = "<group>"; };
+		D5A22E1AFBA2C4502B9ADEA7075B7E7C /* Pods-BookingAssistant-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookingAssistant-frameworks.sh"; sourceTree = "<group>"; };
+		DBDFDB537746BC4B4B220932FA7ED42E /* YYText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYText-umbrella.h"; sourceTree = "<group>"; };
+		DE109EE811568063ED80AE8DC492A87A /* YYTextLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextLine.m; path = YYText/Component/YYTextLine.m; sourceTree = "<group>"; };
+		E11F74128BD527F3ABEC1066A1923B2D /* NOCChatInputPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatInputPanel.h; path = NoChat/NoChat/NOCChatInputPanel.h; sourceTree = "<group>"; };
+		E19D0C25E6D661352F34FC0A0DFE60E6 /* YYText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYText-prefix.pch"; sourceTree = "<group>"; };
+		E24D039BF05D2F12043FDE68EBFF5B70 /* HPGrowingTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HPGrowingTextView.m; path = class/HPGrowingTextView.m; sourceTree = "<group>"; };
+		E3949CC0AB0E203642712FA87C5C093E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FEB360455A5C4312ED413E67F9ACD1 /* Pods-BookingAssistant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookingAssistant-umbrella.h"; sourceTree = "<group>"; };
+		EADEC2AC32589B097AF3CF6DF10A43EA /* NoChat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NoChat.xcconfig; sourceTree = "<group>"; };
+		EB66DEB16A4FD29BBAA0D4EB3017001F /* YYTextContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextContainerView.h; path = YYText/Component/YYTextContainerView.h; sourceTree = "<group>"; };
+		EC78F42E53B594EF0B02AD43AD6C7894 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE1EF83F62E2EC15AF3FB337B6F1E6C4 /* YYText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYText.h; path = YYText/YYText.h; sourceTree = "<group>"; };
+		F0CD2EA326EB9F18DEA7823067887EF4 /* NoChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NoChat.framework; path = NoChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54EC35C76126C14EC925421A1828E89 /* Pods-BookingAssistantTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookingAssistantTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCEE2637E80D6C4246FE82DEA14A31D7 /* YYTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextView.h; path = YYText/YYTextView.h; sourceTree = "<group>"; };
+		FDD4F9F44A44DF33EE16C5BC00AABA42 /* Pods-BookingAssistantUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookingAssistantUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F406034E0CC19B575A80667F5949CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAF1AB28B34A80A7891A0805DFF45D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA998A8EBDEAB180BF8DA3522FC1F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E505F713DCBC48DF75D840B4B293E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644ADBAF57A89BA44C2EC2B7D977F830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F215188F401EDA2FB6CE3DE987F8038 /* Accelerate.framework in Frameworks */,
+				E26B531FE7A386DDB5DDE2CCE8AB182E /* CoreFoundation.framework in Frameworks */,
+				C1FECAE5D19135D6FA5F1C3BC9741325 /* CoreText.framework in Frameworks */,
+				101968EE94977B200B288AFD6B271DF2 /* Foundation.framework in Frameworks */,
+				15A29100DDF5C677E334AC7A53EA14A8 /* MobileCoreServices.framework in Frameworks */,
+				DFCFC20E457BEFCA53A700A2AB7D36F5 /* QuartzCore.framework in Frameworks */,
+				F405040D79586877A4DBF0D4A8D77496 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E75950F684880EFCE6A045620836A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAED6B0825524DF198D26550B1F5A30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D200B8E2CB59EC36F625BD34752ECC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DC6A0E0A930A4F7B5185D8B12C94CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98D2FCD25B0C223ADA83F3E969EAA24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AB64D260A8ABEC9AE43CE5942E147E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0366471F6867FA9FE16435AED7F88D4E /* HPGrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB1C65C4D9C96873677F358659E432 /* HPGrowingTextView.h */,
+				E24D039BF05D2F12043FDE68EBFF5B70 /* HPGrowingTextView.m */,
+				BEFABD8445DE7596D7D265BFCFA92F9C /* HPTextViewInternal.h */,
+				CA6A5BEF4499AB38F143D5CEAFBEB631 /* HPTextViewInternal.m */,
+				F8D660E2AA533ECFCC467E663CB6CE7E /* Support Files */,
+			);
+			name = HPGrowingTextView;
+			path = HPGrowingTextView;
+			sourceTree = "<group>";
+		};
+		1815473F6D1B13C9C93C5500C3512F44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0366471F6867FA9FE16435AED7F88D4E /* HPGrowingTextView */,
+				6E69B25451097451973864833E6262CB /* NoChat */,
+				6B2A65C6BFE7D739F24E9EDAC2C88F26 /* YYText */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34DD82B4301ED8677F425869FEC947E9 /* Pods-BookingAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				D08001EB4C10D4520022998998C3E43B /* Info.plist */,
+				CD4CB665654553AEA5002ACEDF679372 /* Pods-BookingAssistant.modulemap */,
+				C769520C821F36807E91F6CCB033B855 /* Pods-BookingAssistant-acknowledgements.markdown */,
+				393F2855351BF08BEA766325B2BB812D /* Pods-BookingAssistant-acknowledgements.plist */,
+				1E8AB262E816CA16CF7884CC1B0A29F4 /* Pods-BookingAssistant-dummy.m */,
+				D5A22E1AFBA2C4502B9ADEA7075B7E7C /* Pods-BookingAssistant-frameworks.sh */,
+				63597BAB9A91BC0FDDABFCB9EEE21D78 /* Pods-BookingAssistant-resources.sh */,
+				E9FEB360455A5C4312ED413E67F9ACD1 /* Pods-BookingAssistant-umbrella.h */,
+				ACB8CDB755E96596862DECA8616CEBD1 /* Pods-BookingAssistant.debug.xcconfig */,
+				8513AC79F5C72BE4A2244F3BA11FBC38 /* Pods-BookingAssistant.release.xcconfig */,
+			);
+			name = "Pods-BookingAssistant";
+			path = "Target Support Files/Pods-BookingAssistant";
+			sourceTree = "<group>";
+		};
+		69CDA39A8BB9A568886FE51F684C84F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3949CC0AB0E203642712FA87C5C093E /* Info.plist */,
+				5FC39DC5217C21D225719B426A7FB70C /* YYText.modulemap */,
+				90A3C2197D0096B854B937071EF876DA /* YYText.xcconfig */,
+				BB8EA56F68E565966E8F1B01FCC56033 /* YYText-dummy.m */,
+				E19D0C25E6D661352F34FC0A0DFE60E6 /* YYText-prefix.pch */,
+				DBDFDB537746BC4B4B220932FA7ED42E /* YYText-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYText";
+			sourceTree = "<group>";
+		};
+		6B2A65C6BFE7D739F24E9EDAC2C88F26 /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				7888A38C8DAA81F2202F9B3A4A47A22D /* NSAttributedString+YYText.h */,
+				64990EEF5ADD66FA76CC55714F0B737C /* NSAttributedString+YYText.m */,
+				501AED54EF3E53442DE5621F9372EDFB /* NSParagraphStyle+YYText.h */,
+				A11ABE1913DE5E6CBCF486F9DE8C8F19 /* NSParagraphStyle+YYText.m */,
+				B87F8BED99ACBCA74C20FCA67FB004D7 /* UIPasteboard+YYText.h */,
+				C416B4F3C25482E7BD5732068E8F25F0 /* UIPasteboard+YYText.m */,
+				9895A05946283CB988750F091FE25C3D /* UIView+YYText.h */,
+				3191E6924F460CF8430CAB2F51402198 /* UIView+YYText.m */,
+				0DC3DE1CD93AD8F0D307BB37912991C1 /* YYLabel.h */,
+				73A16452D42467352FD96757F77359EB /* YYLabel.m */,
+				EE1EF83F62E2EC15AF3FB337B6F1E6C4 /* YYText.h */,
+				BBD4B8494D9865470E71ECB8C89623D2 /* YYTextArchiver.h */,
+				87CD9B2DA9B7B63B953BE6884FCA5548 /* YYTextArchiver.m */,
+				8C4A6838E1CCC6F807AA4ACD1AAF292C /* YYTextAsyncLayer.h */,
+				6DC0314F4BC2DE5CB2859FD9A9666FEA /* YYTextAsyncLayer.m */,
+				29F25C5C2337FC27D8E129DBDCAFFCD4 /* YYTextAttribute.h */,
+				03E3B8897DD4337EE0671EBFFF1867A2 /* YYTextAttribute.m */,
+				EB66DEB16A4FD29BBAA0D4EB3017001F /* YYTextContainerView.h */,
+				58C840AEA9768879F1641C6EEB915F97 /* YYTextContainerView.m */,
+				A088D56DBFCA86416855011C7F8887B2 /* YYTextDebugOption.h */,
+				66B9E1041B04F5C9E6442D9C6EBB863D /* YYTextDebugOption.m */,
+				CAC629FAD5ADC17117DF010EBC1B1C86 /* YYTextEffectWindow.h */,
+				4BDA03BB62A18AD6633F5BE5C225E1A7 /* YYTextEffectWindow.m */,
+				D2A9DA09B6D34A1995F2ECAAA1D8D03F /* YYTextInput.h */,
+				69E5A186665938B57E38A5466E28E03B /* YYTextInput.m */,
+				8AEEF19B954760473171D073013B10BE /* YYTextKeyboardManager.h */,
+				3AB2F79784D9BE61C15916C3D41B531E /* YYTextKeyboardManager.m */,
+				1CA2D2DB43F3AC6034E678D7D751C0C4 /* YYTextLayout.h */,
+				932D4176847BBAB0101A130F35062E2E /* YYTextLayout.m */,
+				361F915ED654EA4E40A71EA5182E8552 /* YYTextLine.h */,
+				DE109EE811568063ED80AE8DC492A87A /* YYTextLine.m */,
+				3C7E35B71DC25BED2F271A338FF69533 /* YYTextMagnifier.h */,
+				761D0A6A7DB0B7C78012B663757D3AD8 /* YYTextMagnifier.m */,
+				1D71C39EBB3E331ABB9475575B84E906 /* YYTextParser.h */,
+				002FED1DBD61A87B357A8EA9B18A7094 /* YYTextParser.m */,
+				0DF3B1F8B6F6B4EA7A00A9572E0EEB3C /* YYTextRubyAnnotation.h */,
+				D19A53CFCAC57D7B5E2650472146C68C /* YYTextRubyAnnotation.m */,
+				AD2DF9C02D5204E730F673680CEF8D12 /* YYTextRunDelegate.h */,
+				A8234470B08024E1A93547BBD4FB46D7 /* YYTextRunDelegate.m */,
+				25E663AB6A0A5BA0F27DC4D32BA6DF69 /* YYTextSelectionView.h */,
+				812608AB56EFDEFFAD63C934A9799F6C /* YYTextSelectionView.m */,
+				6CDA1ACCE5F23B10DB0CD5522596CAFA /* YYTextTransaction.h */,
+				49445FB0B555779E7C3E12A545FF3A16 /* YYTextTransaction.m */,
+				7CEA7F0199680FCB8C74C89DF0529C71 /* YYTextUtilities.h */,
+				5608FF4B81F0CC40BED433CFDF075AE8 /* YYTextUtilities.m */,
+				FCEE2637E80D6C4246FE82DEA14A31D7 /* YYTextView.h */,
+				B5335E497400CF2A0BA865C1F65A99A9 /* YYTextView.m */,
+				85A0114A87B90EEFE0969E6B9E391794 /* YYTextWeakProxy.h */,
+				5891247324155FC4982210DA5CD81BEC /* YYTextWeakProxy.m */,
+				69CDA39A8BB9A568886FE51F684C84F0 /* Support Files */,
+			);
+			name = YYText;
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		6E69B25451097451973864833E6262CB /* NoChat */ = {
+			isa = PBXGroup;
+			children = (
+				68C5168C2C9F6DD06AE744BB457C8656 /* NOCChatCollectionView.h */,
+				9B8BB053911864F94704AD9554E6A796 /* NOCChatCollectionView.m */,
+				650BBB4CFF324898614DF4B056F70E47 /* NOCChatCollectionViewLayout.h */,
+				C0E83778D03D1DFBFA94154F56ABFA5F /* NOCChatCollectionViewLayout.m */,
+				A4FAED66AC02F2C74F37E866B06D4A35 /* NOCChatContainerView.h */,
+				BACC72365F11ABC5FA172569EDCEEC48 /* NOCChatContainerView.m */,
+				E11F74128BD527F3ABEC1066A1923B2D /* NOCChatInputPanel.h */,
+				2CAE08569705B594B070516602A2C0E6 /* NOCChatInputPanel.m */,
+				BF271EBB9EDD92CB3DED9FC10725BB05 /* NOCChatItem.h */,
+				4469B6D437C845E7021DAEBC278A207D /* NOCChatItemCell.h */,
+				645CE4845C5B5C1BE50F3EA7EFEBC9B4 /* NOCChatItemCell.m */,
+				1A078A26971AE4E646C262E6DDF4CBB1 /* NOCChatItemCellLayout.h */,
+				BF4C1CC6257F0508776BCCDAE17FFEEE /* NOCChatViewController.h */,
+				39308A3BC19534FAA5BA436C329596EF /* NOCChatViewController.m */,
+				02766FA0881F4B0B5D493503190DA669 /* NoChat.h */,
+				8B485EFC1856DD885D5D03DB1CD46FCD /* Support Files */,
+			);
+			name = NoChat;
+			path = NoChat;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				1815473F6D1B13C9C93C5500C3512F44 /* Pods */,
+				853F6D36C6F0E97613CDA5BD01FF883E /* Products */,
+				8132456AC8139CC7C31D8A0436B84E20 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8132456AC8139CC7C31D8A0436B84E20 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34DD82B4301ED8677F425869FEC947E9 /* Pods-BookingAssistant */,
+				A438A8E363EA7239BDDA929FCF42A8C0 /* Pods-BookingAssistantTests */,
+				9A2BEB54D045FB85CF19D0D1DB6FB49C /* Pods-BookingAssistantUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		853F6D36C6F0E97613CDA5BD01FF883E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2FF1928ADBEA1C3D1218A1BD25A9CD2 /* HPGrowingTextView.framework */,
+				F0CD2EA326EB9F18DEA7823067887EF4 /* NoChat.framework */,
+				44DC61553A5FE6BA2798EF60478ACA8F /* Pods_BookingAssistant.framework */,
+				AF237EBC262717496371E3326413EDE2 /* Pods_BookingAssistantTests.framework */,
+				18F86014D2A56F429ED0C0C96E6A51E8 /* Pods_BookingAssistantUITests.framework */,
+				5CA08C1DD76F3DD1A612DCFE47178658 /* YYText.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B485EFC1856DD885D5D03DB1CD46FCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0FF5A7D97F8C652F102ED95A54744DF /* Info.plist */,
+				329745FE4D89E245737E06492FA3EB4D /* NoChat.modulemap */,
+				EADEC2AC32589B097AF3CF6DF10A43EA /* NoChat.xcconfig */,
+				11CF7AA2F666DD7A28F0683D6197E1FE /* NoChat-dummy.m */,
+				8ECC047C17E6B974DF086B320749C80E /* NoChat-prefix.pch */,
+				4342643AF1ABD1188925C7C830F0A8B7 /* NoChat-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NoChat";
+			sourceTree = "<group>";
+		};
+		9A2BEB54D045FB85CF19D0D1DB6FB49C /* Pods-BookingAssistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC6347E38D5E985D789EB7A08B2246F /* Info.plist */,
+				1BE4E56BD52C33A328B3E7019A5CE72E /* Pods-BookingAssistantUITests.modulemap */,
+				8A5214FC14F9B85CA3987FA2CF482436 /* Pods-BookingAssistantUITests-acknowledgements.markdown */,
+				93A063AED62D6E2084A45B0DDCB015DF /* Pods-BookingAssistantUITests-acknowledgements.plist */,
+				25787327A1AF5783CBF0D93525D07C72 /* Pods-BookingAssistantUITests-dummy.m */,
+				6B458AEAAE6B1366034A835E0668CBD4 /* Pods-BookingAssistantUITests-frameworks.sh */,
+				CEFC3FB66DAF122D51AEB760B9EAE673 /* Pods-BookingAssistantUITests-resources.sh */,
+				FDD4F9F44A44DF33EE16C5BC00AABA42 /* Pods-BookingAssistantUITests-umbrella.h */,
+				BAC8BBAB934444CDA95685E81845F292 /* Pods-BookingAssistantUITests.debug.xcconfig */,
+				0C95ED1C5D96E0CAC9DA78F18B8776D3 /* Pods-BookingAssistantUITests.release.xcconfig */,
+			);
+			name = "Pods-BookingAssistantUITests";
+			path = "Target Support Files/Pods-BookingAssistantUITests";
+			sourceTree = "<group>";
+		};
+		A438A8E363EA7239BDDA929FCF42A8C0 /* Pods-BookingAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				22CF2AD8B67C6FEBCA66107DB0D4C73B /* Info.plist */,
+				4D79C2F4C922732B53D0DF818E444836 /* Pods-BookingAssistantTests.modulemap */,
+				6280D35F58FAAA2BCD86CD35F781B0DD /* Pods-BookingAssistantTests-acknowledgements.markdown */,
+				F54EC35C76126C14EC925421A1828E89 /* Pods-BookingAssistantTests-acknowledgements.plist */,
+				47A9196C1EA0BF04ED757970B66394B0 /* Pods-BookingAssistantTests-dummy.m */,
+				0FAFD5BE2892BD07E36B0D8ACEFD909E /* Pods-BookingAssistantTests-frameworks.sh */,
+				B2651C1B62B7E43A1934738157E6D5EE /* Pods-BookingAssistantTests-resources.sh */,
+				2E66AC4193BA5191C0CC2CD833948822 /* Pods-BookingAssistantTests-umbrella.h */,
+				268F5AF2A460050FAD1C81D568C9EC0F /* Pods-BookingAssistantTests.debug.xcconfig */,
+				A9363011BC6EB6AE6884E99D2F2CD497 /* Pods-BookingAssistantTests.release.xcconfig */,
+			);
+			name = "Pods-BookingAssistantTests";
+			path = "Target Support Files/Pods-BookingAssistantTests";
+			sourceTree = "<group>";
+		};
+		D64510687103930C234CECEF8A2BEAB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0525E07A8CAE299CB20D411AA8A1138E /* Accelerate.framework */,
+				EC78F42E53B594EF0B02AD43AD6C7894 /* CoreFoundation.framework */,
+				985DBD70FB245138EC45B091E7D1B704 /* CoreText.framework */,
+				C59B249C21FE178D4A257DE4CAF29E11 /* Foundation.framework */,
+				A697C56B93860A1735867FE931FA9271 /* MobileCoreServices.framework */,
+				5AA15695F87CFC4A9494DF27112E5DE1 /* QuartzCore.framework */,
+				552350B0C2360B478A721EB17E853ED5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D64510687103930C234CECEF8A2BEAB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D660E2AA533ECFCC467E663CB6CE7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC2A53A06AAC673FEF55045D4410CCBB /* HPGrowingTextView.modulemap */,
+				584060CAF658EA06D54EDE5FC4FF6A07 /* HPGrowingTextView.xcconfig */,
+				8F44C2535714CF241A9AC540FA90A643 /* HPGrowingTextView-dummy.m */,
+				4D58569A846E6683F8FD68B60F6F7C24 /* HPGrowingTextView-prefix.pch */,
+				36412B3D556D3C2FEE4EF47F340E7741 /* HPGrowingTextView-umbrella.h */,
+				6C3A2F75356D27E3CC928CA50A0EB84A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HPGrowingTextView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5D05C3C8D79C250C14A8053AA9201E51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58D5656559C72C27EA7CDC61636F9D3 /* Pods-BookingAssistant-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748D02FF370B54CFFC3A599990663880 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24C61026EE8B93FAE15146096E1D8B4 /* NOCChatCollectionView.h in Headers */,
+				EF566AC0E1DF35DBD1AE7880084359E2 /* NOCChatCollectionViewLayout.h in Headers */,
+				C21F740E3620824F2473B721717C2DD6 /* NOCChatContainerView.h in Headers */,
+				B0CC5C28903773842BA29D4BF14A91BD /* NOCChatInputPanel.h in Headers */,
+				9F50305529394B61BF6F550C22302410 /* NOCChatItem.h in Headers */,
+				3C6786D8D4AE1F7549A1B4B18525200D /* NOCChatItemCell.h in Headers */,
+				F24A081D57B8FBAE229E8AAD2D01A8F8 /* NOCChatItemCellLayout.h in Headers */,
+				7096A9C0A7A8EE136301C1B59C97F182 /* NOCChatViewController.h in Headers */,
+				D683328A5CEE1750501B6659E871243A /* NoChat-umbrella.h in Headers */,
+				D08DD75D280D476D93334A487DEDD9B5 /* NoChat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F02DFE765CAF55965D87F1D3D8BA6E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D760FAF17B28928AC76FAA510EF388 /* NSAttributedString+YYText.h in Headers */,
+				434CACD2433F6E5D574191D4DE43D9D7 /* NSParagraphStyle+YYText.h in Headers */,
+				648EC36B740956CE35ADCC2CA27BE7FF /* UIPasteboard+YYText.h in Headers */,
+				36A222D4954693BE1B02975C774B1390 /* UIView+YYText.h in Headers */,
+				EFB46B1D9FAB831E709DC951D9E9424E /* YYLabel.h in Headers */,
+				DA7C5BAAE8CCCA3DAD00D32D3582C597 /* YYText-umbrella.h in Headers */,
+				97CC2E045C2F24310E0E303AC934F0BA /* YYText.h in Headers */,
+				B1A6D1C026FAB1C748B888E87FD7AED7 /* YYTextArchiver.h in Headers */,
+				64A2FF445FFB54EF155DF167E564248D /* YYTextAsyncLayer.h in Headers */,
+				0CAFF0329CACA0C66E206C4D42614A57 /* YYTextAttribute.h in Headers */,
+				5A6FBE8CAE3732D2E691D45F03808007 /* YYTextContainerView.h in Headers */,
+				E756EEBA432C958FF139CB4479225C00 /* YYTextDebugOption.h in Headers */,
+				8FB1A2D6E3E594C65B990BA4F228D8BE /* YYTextEffectWindow.h in Headers */,
+				807FC564CBC0D2743913F2A8CC36FEEC /* YYTextInput.h in Headers */,
+				05540CF97DE4C41467ADC20C112A5431 /* YYTextKeyboardManager.h in Headers */,
+				565A7D9A7FDCE826CC3F8F51AD562C14 /* YYTextLayout.h in Headers */,
+				D287C903E69204E6B4E665EC637F6991 /* YYTextLine.h in Headers */,
+				13D2A6288574E7E4CFF9921A8981FCA8 /* YYTextMagnifier.h in Headers */,
+				0E5C47AA657FE62EDD16C87D604F7733 /* YYTextParser.h in Headers */,
+				E36223D08E169101A0C336B47BCF85A1 /* YYTextRubyAnnotation.h in Headers */,
+				EF4C5417B9E6092367C2C7C8007ED902 /* YYTextRunDelegate.h in Headers */,
+				8B9A267547036644FB2DF0B601C6C50E /* YYTextSelectionView.h in Headers */,
+				8217C3546E1C9089EFE7A29D13CD2BDC /* YYTextTransaction.h in Headers */,
+				5D3278DFDFB2CD285CB184C2524989F2 /* YYTextUtilities.h in Headers */,
+				F037E6589D71EDF3E153A5CD64354AF7 /* YYTextView.h in Headers */,
+				B2E7EB334657AD86053041165DE48765 /* YYTextWeakProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97925FD2EDFBCD42D565C64DEC906E2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3493F1326A48FE0E0E3BE98ABAFCCA2 /* Pods-BookingAssistantUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7CF9906E8B8107DDF8677E43FF2990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AB8E13BAC797F454514D2A95D7322 /* HPGrowingTextView-umbrella.h in Headers */,
+				E2C141D17BC3D90CE6987BDB807CA342 /* HPGrowingTextView.h in Headers */,
+				11F5EBB7481DFE9E49A4B3FE2BA3C653 /* HPTextViewInternal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF1D99DF0473D9F14E714A90D43C8D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284CE0942DF725F7068416C5A1E8CB6D /* Pods-BookingAssistantTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CEB6E7B326131D976C2028E2B068634 /* YYText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3635C1D1287B791120D32FA8A1FF096C /* Build configuration list for PBXNativeTarget "YYText" */;
+			buildPhases = (
+				EB6B280C2460FA16A9D34A79B1831E41 /* Sources */,
+				644ADBAF57A89BA44C2EC2B7D977F830 /* Frameworks */,
+				8F02DFE765CAF55965D87F1D3D8BA6E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYText;
+			productName = YYText;
+			productReference = 5CA08C1DD76F3DD1A612DCFE47178658 /* YYText.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F36EC2DBCCFC286E1F460C0671FD29E /* Pods-BookingAssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8DFB48DD9D992D482DEEBE5B6711C16 /* Build configuration list for PBXNativeTarget "Pods-BookingAssistantUITests" */;
+			buildPhases = (
+				9C59B22652B2FEF480FD312EE8FE88D1 /* Sources */,
+				D200B8E2CB59EC36F625BD34752ECC3D /* Frameworks */,
+				97925FD2EDFBCD42D565C64DEC906E2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BookingAssistantUITests";
+			productName = "Pods-BookingAssistantUITests";
+			productReference = 18F86014D2A56F429ED0C0C96E6A51E8 /* Pods_BookingAssistantUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		617D61FCB3A3DFF8E75036B33D8E9BA1 /* HPGrowingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32D32D5E0836685FDCE951D6BF2D059 /* Build configuration list for PBXNativeTarget "HPGrowingTextView" */;
+			buildPhases = (
+				1B9CA000E284558E6F045E1276E06FED /* Sources */,
+				F98D2FCD25B0C223ADA83F3E969EAA24 /* Frameworks */,
+				CE7CF9906E8B8107DDF8677E43FF2990 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPGrowingTextView;
+			productName = HPGrowingTextView;
+			productReference = C2FF1928ADBEA1C3D1218A1BD25A9CD2 /* HPGrowingTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64FE122BD3CE0F1BC99699025AE3D333 /* NoChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B3766C37805A6AF7701B2B984A2998 /* Build configuration list for PBXNativeTarget "NoChat" */;
+			buildPhases = (
+				11A38844B84F3773CCFD0BD985389A4D /* Sources */,
+				04F406034E0CC19B575A80667F5949CE /* Frameworks */,
+				748D02FF370B54CFFC3A599990663880 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoChat;
+			productName = NoChat;
+			productReference = F0CD2EA326EB9F18DEA7823067887EF4 /* NoChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D6C04D36701C0CD09598D9577F8C878 /* Pods-BookingAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710E9A383C6BA64D03CE6A08E83B6ED7 /* Build configuration list for PBXNativeTarget "Pods-BookingAssistant" */;
+			buildPhases = (
+				E601450E178E72C0CFE90BE3269B9020 /* Sources */,
+				3FA998A8EBDEAB180BF8DA3522FC1F55 /* Frameworks */,
+				5D05C3C8D79C250C14A8053AA9201E51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52C9D861438C12AB8865F3DA503EAA29 /* PBXTargetDependency */,
+				39F33529366976689214FCBB487480EC /* PBXTargetDependency */,
+				C84F962FA16056E520582912FD7F1180 /* PBXTargetDependency */,
+			);
+			name = "Pods-BookingAssistant";
+			productName = "Pods-BookingAssistant";
+			productReference = 44DC61553A5FE6BA2798EF60478ACA8F /* Pods_BookingAssistant.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE984D280AC3085BB7420F4DC67EAD98 /* Pods-BookingAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A38BAF3DBC61E1F18FEDDCDC613057 /* Build configuration list for PBXNativeTarget "Pods-BookingAssistantTests" */;
+			buildPhases = (
+				C7D1C51C7F135331C6754DCA45B82958 /* Sources */,
+				6E75950F684880EFCE6A045620836A79 /* Frameworks */,
+				FFF1D99DF0473D9F14E714A90D43C8D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BookingAssistantTests";
+			productName = "Pods-BookingAssistantTests";
+			productReference = AF237EBC262717496371E3326413EDE2 /* Pods_BookingAssistantTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 853F6D36C6F0E97613CDA5BD01FF883E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				617D61FCB3A3DFF8E75036B33D8E9BA1 /* HPGrowingTextView */,
+				64FE122BD3CE0F1BC99699025AE3D333 /* NoChat */,
+				8D6C04D36701C0CD09598D9577F8C878 /* Pods-BookingAssistant */,
+				BE984D280AC3085BB7420F4DC67EAD98 /* Pods-BookingAssistantTests */,
+				3F36EC2DBCCFC286E1F460C0671FD29E /* Pods-BookingAssistantUITests */,
+				2CEB6E7B326131D976C2028E2B068634 /* YYText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A38844B84F3773CCFD0BD985389A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6929DCAF3E3D4308134C0B97DC369D85 /* NOCChatCollectionView.m in Sources */,
+				F7A4E0465321BC5553EECAA170B71445 /* NOCChatCollectionViewLayout.m in Sources */,
+				38CAA746CCE360E0EEEDFB26D0AB4584 /* NOCChatContainerView.m in Sources */,
+				8D373E66EDCC6940EAD1A2B1C22DA25F /* NOCChatInputPanel.m in Sources */,
+				E071CA7389774F0931A42D50F09D7B98 /* NOCChatItemCell.m in Sources */,
+				8FF0C9D8D2D3ECC46FA97AB9426BE038 /* NOCChatViewController.m in Sources */,
+				EE98C305757C0E19122EF63236099D5F /* NoChat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9CA000E284558E6F045E1276E06FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7495A2A1262E693E8B98D6B66BC98128 /* HPGrowingTextView-dummy.m in Sources */,
+				CD81F0749AB7C898A6DBC36F9AD5AA60 /* HPGrowingTextView.m in Sources */,
+				5477A5B6239ACCA96A72955DA1823E3B /* HPTextViewInternal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C59B22652B2FEF480FD312EE8FE88D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98758A586DEE16FB0DE8F1F98E78D03 /* Pods-BookingAssistantUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D1C51C7F135331C6754DCA45B82958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDFCE1CA900662F0A771FE6CD2B3D7C /* Pods-BookingAssistantTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E601450E178E72C0CFE90BE3269B9020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3AE888C8FF377FF060D92EDB3C14A4 /* Pods-BookingAssistant-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6B280C2460FA16A9D34A79B1831E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BA2C4E655B8F6ACF0CD8F051D10847 /* NSAttributedString+YYText.m in Sources */,
+				69EC263BD72EE845DC407E0F10DC3A78 /* NSParagraphStyle+YYText.m in Sources */,
+				1DEAE7FF2FA1BE8495BE2E7AFB0270E3 /* UIPasteboard+YYText.m in Sources */,
+				A1B1D41F11518BF5113C414F5ECD6ADD /* UIView+YYText.m in Sources */,
+				C2CBDFBD13D6C73391D4CB8F8C7B7E13 /* YYLabel.m in Sources */,
+				B9C617AD229786AC22D834DB81B7BA6D /* YYText-dummy.m in Sources */,
+				DC83FC33D82CAE19D7D6BFBED04215C0 /* YYTextArchiver.m in Sources */,
+				9688611D71CF30DA2C822A3995B1C725 /* YYTextAsyncLayer.m in Sources */,
+				134FDC985D4FA91B5BFE9C39161B8B17 /* YYTextAttribute.m in Sources */,
+				31D299C497DDC974609607E85E819F73 /* YYTextContainerView.m in Sources */,
+				22EAE7BF3C2D97277ED0EABFDA9520EC /* YYTextDebugOption.m in Sources */,
+				36E8F4396F6E3127B8076AADCDDCD4D8 /* YYTextEffectWindow.m in Sources */,
+				C02E61608FF5DE040254873E6039ECF1 /* YYTextInput.m in Sources */,
+				496C1DEBB16793A3E2573A7FB2850006 /* YYTextKeyboardManager.m in Sources */,
+				7E0B0C847CE33438DF7D08D98F4558AE /* YYTextLayout.m in Sources */,
+				73BD5DC4D6D9E012511E4AE1DABC9747 /* YYTextLine.m in Sources */,
+				C967A752B1D42B6620E4A1AD19F7D146 /* YYTextMagnifier.m in Sources */,
+				C89B0A90E904C604818B2B383B66D761 /* YYTextParser.m in Sources */,
+				3E48BEA0CC30CF705B245361B09F6972 /* YYTextRubyAnnotation.m in Sources */,
+				51EB33B0AC6AA11F31A10B12709CDF3B /* YYTextRunDelegate.m in Sources */,
+				6A45982A3893A2C50A9592D7E7F10297 /* YYTextSelectionView.m in Sources */,
+				20E63898AD0F1B32842D1B6D56B8316D /* YYTextTransaction.m in Sources */,
+				35C3A207965FBA34CD5161CB77AE72D3 /* YYTextUtilities.m in Sources */,
+				9BAC385EAE355358C4D8C0D7F8C2BB5B /* YYTextView.m in Sources */,
+				F143FEFEE261033933448F1EBBD2412A /* YYTextWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39F33529366976689214FCBB487480EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NoChat;
+			target = 64FE122BD3CE0F1BC99699025AE3D333 /* NoChat */;
+			targetProxy = 7D46C487E92E6D70860C2E0F08E99704 /* PBXContainerItemProxy */;
+		};
+		52C9D861438C12AB8865F3DA503EAA29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HPGrowingTextView;
+			target = 617D61FCB3A3DFF8E75036B33D8E9BA1 /* HPGrowingTextView */;
+			targetProxy = D2038F36B81E55F4539456526D257E96 /* PBXContainerItemProxy */;
+		};
+		C84F962FA16056E520582912FD7F1180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYText;
+			target = 2CEB6E7B326131D976C2028E2B068634 /* YYText */;
+			targetProxy = A75B5F5AFD9953EA735CC08B6AEE4650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0431E046E2CDA70B9395D0F11E2CB864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584060CAF658EA06D54EDE5FC4FF6A07 /* HPGrowingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HPGrowingTextView/HPGrowingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HPGrowingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HPGrowingTextView/HPGrowingTextView.modulemap";
+				PRODUCT_NAME = HPGrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A6397E9EBE49B09BC45A906232318E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268F5AF2A460050FAD1C81D568C9EC0F /* Pods-BookingAssistantTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingAssistantTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingAssistantTests/Pods-BookingAssistantTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookingAssistantTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F00AF17AD13A323597232E7CD7E0CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9363011BC6EB6AE6884E99D2F2CD497 /* Pods-BookingAssistantTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingAssistantTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingAssistantTests/Pods-BookingAssistantTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookingAssistantTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45E5ED9F53FA347F9C84ADE5118377D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB8CDB755E96596862DECA8616CEBD1 /* Pods-BookingAssistant.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingAssistant/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingAssistant/Pods-BookingAssistant.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookingAssistant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D01D346C93D73078742874A1DD250C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A3C2197D0096B854B937071EF876DA /* YYText.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYText/YYText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYText/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYText/YYText.modulemap";
+				PRODUCT_NAME = YYText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		549886847A0C0665FC64D693CB74E39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A3C2197D0096B854B937071EF876DA /* YYText.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYText/YYText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYText/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYText/YYText.modulemap";
+				PRODUCT_NAME = YYText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B789FF06910F5A02A3D9972C589F045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC8BBAB934444CDA95685E81845F292 /* Pods-BookingAssistantUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingAssistantUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingAssistantUITests/Pods-BookingAssistantUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookingAssistantUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F06342292EB325C567CAF4A25B27954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADEC2AC32589B097AF3CF6DF10A43EA /* NoChat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NoChat/NoChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NoChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NoChat/NoChat.modulemap";
+				PRODUCT_NAME = NoChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA7AD8FF7F169D8E7C255F7E389BA0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C95ED1C5D96E0CAC9DA78F18B8776D3 /* Pods-BookingAssistantUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingAssistantUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingAssistantUITests/Pods-BookingAssistantUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookingAssistantUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C06E6E29FB8173F7CD0B2C3B4EF7E56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8513AC79F5C72BE4A2244F3BA11FBC38 /* Pods-BookingAssistant.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingAssistant/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingAssistant/Pods-BookingAssistant.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookingAssistant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D07B6DF68C6F26F7D043AD59DD0D8A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADEC2AC32589B097AF3CF6DF10A43EA /* NoChat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NoChat/NoChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NoChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NoChat/NoChat.modulemap";
+				PRODUCT_NAME = NoChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9885059696C26142588F1D468B81C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584060CAF658EA06D54EDE5FC4FF6A07 /* HPGrowingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HPGrowingTextView/HPGrowingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HPGrowingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HPGrowingTextView/HPGrowingTextView.modulemap";
+				PRODUCT_NAME = HPGrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A38BAF3DBC61E1F18FEDDCDC613057 /* Build configuration list for PBXNativeTarget "Pods-BookingAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6397E9EBE49B09BC45A906232318E1 /* Debug */,
+				3F00AF17AD13A323597232E7CD7E0CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3635C1D1287B791120D32FA8A1FF096C /* Build configuration list for PBXNativeTarget "YYText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549886847A0C0665FC64D693CB74E39F /* Debug */,
+				4D01D346C93D73078742874A1DD250C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710E9A383C6BA64D03CE6A08E83B6ED7 /* Build configuration list for PBXNativeTarget "Pods-BookingAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E5ED9F53FA347F9C84ADE5118377D8 /* Debug */,
+				C06E6E29FB8173F7CD0B2C3B4EF7E56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B3766C37805A6AF7701B2B984A2998 /* Build configuration list for PBXNativeTarget "NoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F06342292EB325C567CAF4A25B27954 /* Debug */,
+				D07B6DF68C6F26F7D043AD59DD0D8A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8DFB48DD9D992D482DEEBE5B6711C16 /* Build configuration list for PBXNativeTarget "Pods-BookingAssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B789FF06910F5A02A3D9972C589F045 /* Debug */,
+				AA7AD8FF7F169D8E7C255F7E389BA0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32D32D5E0836685FDCE951D6BF2D059 /* Build configuration list for PBXNativeTarget "HPGrowingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9885059696C26142588F1D468B81C67 /* Debug */,
+				0431E046E2CDA70B9395D0F11E2CB864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
